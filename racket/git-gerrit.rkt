@@ -923,7 +923,7 @@
 		    #:program (format "git-gerrit ~a" cmd-name)
 		    #:argv args
 		    #:once-each
-		    ["--force" "Force delete, even not merged"
+		    ["-f" "--force" "Force delete, even not merged"
 		     (flag-force #t)]
 		    #:usage-help
 		    "Delete change workspace."
